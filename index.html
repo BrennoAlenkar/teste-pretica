@@ -8,7 +8,7 @@
     <title>HTML | CSS</title>
 </head>
 
-<body style="background-color: gray;">
+<body style="background-color: rgb(240, 240, 240);">
     <!-- Isso é um titulo de  nivel 1-->
     <h1>Olá, Mundo!</h1>
     <a href="page02.html">Pagina 2</a> <br> <br>
@@ -19,6 +19,60 @@
     <div class="whats">
         <a href="https://github.com/BrennoAlenkar" target="_blank">Whats</a>
     </div>
+
+    <!-- Começo do formulario-->
+     <form action="" method="post">
+        <h3>Formularios</h3>
+        <label for="texto">Nome:</label>
+        <input type="text" placeholder="Digite seu nome" name="texto" id="texto" required> <br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" placeholder="Digite seu E-mail" name="email" id="email" required> <br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" placeholder="Digite sua senha" name="senha" id="senha" required> <br><br>
+        <input type="checkbox" name="concorda" id="concorda" required> 
+        <label for="concorda">Aceita os termos de contrato?</label> <br><br>
+        <input type="submit" value="Enviar">
+        <hr>
+        <h3>Escolha um animal</h3>
+        <input type="radio" name="animal" id="cachorro">
+        <label for="cachorro">Cachorro</label> <br><br>
+        <input type="radio" name="animal" id="gato">
+        <label for="gato">Gato</label> <br><br>
+        <input type="radio" name="animal" id="leao">
+        <label for="leao">Leão</label> <br><br>
+        <input type="radio" name="animal" id="tigre">
+        <label for="tigre">Tigre</label> <br><br>
+        <input type="radio" name="animal" id="cobra">
+        <label for="cobra">Cobra</label> <br><br>
+        <hr>
+        <h3>Moveis que vc tem</h3>
+        <input type="checkbox" name="tv" id="tv">
+        <label for="tv">Televisão</label> <br><br>
+        
+        <input type="checkbox" name="cama" id="cama">
+        <label for="cama">Cama</label> <br><br>
+        
+        <input type="checkbox" name="sofa" id="sofa">
+        <label for="sofa">Sofá</label> <br><br>
+        
+        <input type="checkbox" name="roupa" id="roupa">
+        <label for="roupa">Guarda-roupa</label> <br><br>
+        
+        <input type="checkbox" name="tv2" id="tv2">
+        <label for="tv2">Televisão (outro)</label> <br><br>
+        <hr>
+        <h3>Selecionar</h3>
+        <select name="" id="">
+            <option value="">Selecionar</option>
+            <option value="">Carro</option>
+            <option value="">Jantar</option>
+            <option value="">Correr</option>
+            <option value="">Alimentar</option>
+            <option value="">Ler Bíblia</option>
+            <option value="">orar</option>
+            <option value="">Sair</option>
+        </select>
+     </form>
     <!--Isso é um paragrafo em html-->
     <p>Lorem, <strong>ipsum dolor sit amet consectetur adipisicing</strong> elit. Quos, <sub>praesentium.</sub>
         Iste odit
