@@ -10,12 +10,16 @@
 
 <body style="background-color: rgb(240, 240, 240);">
     <!-- Isso é um titulo de  nivel 1-->
-    <h1>Olá, Mundo!</h1>
-    <a href="page02.html">Pagina 2</a> <br> <br>
-    <a href="/links/page03.html">Pagina 3</a> <br> <br>
-    <a href="https://www.youtube.com/">Youtube</a> <br> <br>
+    <header class="container">
+        <h1 id="teste">Olá, Mundo!</h1>
+    </header>
+    <br> <br>
+    <a class="link1" href="page02.html">Pagina 2</a> <br> <br>
+    <a class="link2" href="/links/page03.html">Pagina 3</a> <br> <br>
+    <a class="link3" href="https://www.youtube.com/">Youtube</a> <br> <br>
     <a href="https://www.nike.com.br/sc/dias-dos-membros-nike"><img src="imagens/logo.svg" alt="Foto logo nike"></a>
     <br><br>
+
     <div class="whats">
         <a href="https://github.com/BrennoAlenkar" target="_blank">Whats</a>
     </div>
@@ -23,19 +27,19 @@
     <audio controls src="audio/audio.opus"></audio>
 
     <!-- Começo do formulario-->
-     <form action="" method="post">
-        <h3>Formularios</h3>
+    <form action="" method="post">
+        <h3 class="color__teste">Formularios</h3>
         <label for="texto">Nome:</label>
         <input type="text" placeholder="Digite seu nome" name="texto" id="texto" required> <br><br>
         <label for="email">E-mail:</label>
         <input type="email" placeholder="Digite seu E-mail" name="email" id="email" required> <br><br>
         <label for="senha">Senha:</label>
         <input type="password" placeholder="Digite sua senha" name="senha" id="senha" required> <br><br>
-        <input type="checkbox" name="concorda" id="concorda" required> 
+        <input type="checkbox" name="concorda" id="concorda" required>
         <label for="concorda">Aceita os termos de contrato?</label> <br><br>
         <input type="submit" value="Enviar">
         <hr>
-        <h3>Escolha um animal</h3>
+        <h3 class="color__teste">Escolha um animal</h3>
         <input type="radio" name="animal" id="cachorro">
         <label for="cachorro">Cachorro</label> <br><br>
         <input type="radio" name="animal" id="gato">
@@ -50,16 +54,16 @@
         <h3>Moveis que vc tem</h3>
         <input type="checkbox" name="tv" id="tv">
         <label for="tv">Televisão</label> <br><br>
-        
+
         <input type="checkbox" name="cama" id="cama">
         <label for="cama">Cama</label> <br><br>
-        
+
         <input type="checkbox" name="sofa" id="sofa">
         <label for="sofa">Sofá</label> <br><br>
-        
+
         <input type="checkbox" name="roupa" id="roupa">
         <label for="roupa">Guarda-roupa</label> <br><br>
-        
+
         <input type="checkbox" name="tv2" id="tv2">
         <label for="tv2">Televisão (outro)</label> <br><br>
         <hr>
@@ -74,8 +78,8 @@
             <option value="">orar</option>
             <option value="">Sair</option>
         </select>
-     </form>
-     
+    </form>
+
     <!--Isso é um paragrafo em html-->
     <p>Lorem, <strong>ipsum dolor sit amet consectetur adipisicing</strong> elit. Quos, <sub>praesentium.</sub>
         Iste odit
@@ -83,8 +87,11 @@
         neque illo nisi, <sup>assumenda sunt</sup> autem harum?</p>
     <h2>Título 2</h2>
     <hr>
-    <img src="imagens/carro.jpg" alt="Foto Carro Importado">
-    <iframe width="660" height="365" src="https://www.youtube.com/embed/sj0p9O85AIg?si=I9YCi0bQZOGcpfyX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br><br>
+    <img class="foto" src="imagens/carro.jpg" alt="Foto Carro Importado">
+    <iframe width="660" height="365" src="https://www.youtube.com/embed/sj0p9O85AIg?si=I9YCi0bQZOGcpfyX"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br><br>
     <ul>
         <h3>Comidas</h3>
         <li>Arroz</li>
