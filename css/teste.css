@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: blue;
+    height: 500px;
+}
+
+.container div {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin: 1%;
+    
+}
